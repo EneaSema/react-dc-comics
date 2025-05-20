@@ -1,17 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 1rem;
 }
 
 img {
   width: 100%;
 }
-
+/* SECTION HEADER */
 ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 
 li {
@@ -19,6 +27,15 @@ li {
   list-style-type: none;
 }
 
-#text-selected {
-  color: rgba(51, 181, 229, 0.4);
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-size: 1rem;
+  font-weight: 600;
 }
+
+#text-selected {
+  color: rgb(6, 74, 175);
+}
+
+/* SECTION MAIN */
