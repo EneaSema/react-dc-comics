@@ -43,6 +43,28 @@ a {
 }
 
 /* SECTION MAIN */
+main {
+  margin: 1rem;
+  background-color: black;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-insert {
+  color: white;
+}
+.section-merchandising {
+  background-color: rgb(6, 74, 175);
+}
+
+.section-info {
+  background-image: url("../../../public/img/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
 
 /* SECTION FOOTER */
 
