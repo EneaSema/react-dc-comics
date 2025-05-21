@@ -90,24 +90,22 @@ export default function Main() {
             </nav>
           </div>
 
-          {/* <li>
-                <h4>DC</h4>
-                <nav>
-                  <ul id="info-dc-comics">
-                    <li>Terms Of Use</li>
-                    <li>Privacy policy</li>
-                    <li>Ad Choices</li>
-                    <li>Advertising</li>
-                    <li>Jobs</li>
-                    <li>Subscription</li>
-                    <li>Talent Workshops</li>
-                    <li>CPSC Certificates</li>
-                    <li>Ratings</li>
-                    <li>Shop Help</li>
-                    <li>Contact Us</li>
-                  </ul>
-                </nav>
-              </li> */}
+          <h4>DC</h4>
+          <nav>
+            <ul id="info-dc-comics">
+              <li>Terms Of Use</li>
+              <li>Privacy policy</li>
+              <li>Ad Choices</li>
+              <li>Advertising</li>
+              <li>Jobs</li>
+              <li>Subscription</li>
+              <li>Talent Workshops</li>
+              <li>CPSC Certificates</li>
+              <li>Ratings</li>
+              <li>Shop Help</li>
+              <li>Contact Us</li>
+            </ul>
+          </nav>
 
           {/* <li>
                 <h4>SHOP</h4>
