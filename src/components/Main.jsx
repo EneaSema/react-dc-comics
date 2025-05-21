@@ -8,11 +8,46 @@ export default function Main() {
         <section className="section-merchandising">
           <nav>
             <ul>
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
+              <li>
+                <img
+                  className="img-icon-merchandise"
+                  src="../img/buy-comics-digital-comics.png"
+                  alt=""
+                />
+                <span className="text-icon-merchandise">DIGITAL COMICS</span>
+              </li>
+              <li>
+                <img
+                  className="img-icon-merchandise"
+                  src="../img/buy-comics-merchandise.png"
+                  alt=""
+                />
+                <span className="text-icon-merchandise">DIGITAL COMICS</span>
+              </li>
+              <li>
+                <img
+                  className="img-icon-merchandise"
+                  src="../img/buy-comics-subscriptions.png"
+                  alt=""
+                />
+                <span className="text-icon-merchandise">DIGITAL COMICS</span>
+              </li>
+              <li>
+                <img
+                  className="img-icon-merchandise"
+                  src="../img/buy-comics-shop-locator.png"
+                  alt=""
+                />
+                <span className="text-icon-merchandise">DIGITAL COMICS</span>
+              </li>
+              <li>
+                <img
+                  className="img-icon-merchandise"
+                  src="../img/buy-dc-power-visa.svg"
+                  alt=""
+                />
+                <span className="text-icon-merchandise">DIGITAL COMICS</span>
+              </li>
             </ul>
           </nav>
         </section>
