@@ -72,6 +72,10 @@ main {
   width: 25%;
 }
 
+.text-icon-merchandise {
+  color: white;
+}
+
 .section-info {
   background-image: url("../../../public/img/dc-logo-bg.png");
   background-size: cover;
