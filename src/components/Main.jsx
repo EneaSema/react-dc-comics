@@ -5,6 +5,7 @@ export default function Main() {
         <section className="section-insert">
           <h1>--&gt; Content goes here &lt;--</h1>
         </section>
+
         <section className="section-merchandising">
           <nav>
             <ul>
@@ -83,42 +84,44 @@ export default function Main() {
 
             <h4 className="info-text-important">SHOP</h4>
             <nav>
-              <ul id="info-dc-comics">
+              <ul id="info-shop">
                 <li>Shop DC</li>
                 <li>Shop DC Collectibles</li>
               </ul>
             </nav>
           </div>
 
-          <h4>DC</h4>
-          <nav>
-            <ul id="info-dc-comics">
-              <li>Terms Of Use</li>
-              <li>Privacy policy</li>
-              <li>Ad Choices</li>
-              <li>Advertising</li>
-              <li>Jobs</li>
-              <li>Subscription</li>
-              <li>Talent Workshops</li>
-              <li>CPSC Certificates</li>
-              <li>Ratings</li>
-              <li>Shop Help</li>
-              <li>Contact Us</li>
-            </ul>
-          </nav>
+          <div id="dc-link-info">
+            <h4 className="info-text-important">DC</h4>
+            <nav>
+              <ul id="info-dc-quiet-politics">
+                <li>Terms Of Use</li>
+                <li>Privacy policy</li>
+                <li>Ad Choices</li>
+                <li>Advertising</li>
+                <li>Jobs</li>
+                <li>Subscription</li>
+                <li>Talent Workshops</li>
+                <li>CPSC Certificates</li>
+                <li>Ratings</li>
+                <li>Shop Help</li>
+                <li>Contact Us</li>
+              </ul>
+            </nav>
+          </div>
 
-          {/* <li>
-                <h4>SHOP</h4>
-                <nav>
-                  <ul id="info-dc-comics">
-                    <li>DC</li>
-                    <li>MAD Magazine</li>
-                    <li>DC Kids</li>
-                    <li>DC Universe</li>
-                    <li>DC Power Visa</li>
-                  </ul>
-                </nav>
-              </li> */}
+          <div id="dc-sites">
+            <h4 className="info-text-important">SITES</h4>
+            <nav>
+              <ul id="info-dc-sites">
+                <li>DC</li>
+                <li>MAD Magazine</li>
+                <li>DC Kids</li>
+                <li>DC Universe</li>
+                <li>DC Power Visa</li>
+              </ul>
+            </nav>
+          </div>
         </section>
       </div>
     </main>
