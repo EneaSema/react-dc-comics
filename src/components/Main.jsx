@@ -1,7 +1,14 @@
+import Alert from "../components/ui/Alert";
+
 export default function Main() {
+  // const hasmassage = false;
+  const messagge = "Come posso aiutarti?";
+
   return (
     <main>
       <div className="container-main">
+        <Alert type="" text="" colorText="blue"></Alert>
+
         <section className="section-insert">
           <h1>--&gt; Content goes here &lt;--</h1>
         </section>

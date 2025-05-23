@@ -53,6 +53,31 @@ main {
   background-image: url("/img/footer-bg.jpg");
   background-size: contain;
 }
+
+.alert {
+  border: 2px, solid, currentColor;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: auto;
+  background-color: white;
+  margin: 1rem auto;
+}
+
+.alert.alert-info {
+  background-color: blue;
+  color: white;
+}
+
+.alert.alert-success {
+  background-color: green;
+  color: green;
+}
+
+.alert.alert-danger {
+  background-color: white;
+  color: red;
+}
+
 .container-main {
   display: flex;
   flex-direction: column;

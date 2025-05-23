@@ -5,6 +5,7 @@ export default function Footer() {
         <button className="btn">
           <h3 id="text-btn">SIGN-UP NOW!</h3>
         </button>
+
         <nav>
           <ul>
             <li>
