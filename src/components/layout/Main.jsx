@@ -1,16 +1,35 @@
-import Alert from "../components/ui/Alert";
+import Alert from "../ui/Alert";
 
-export default function Main() {
-  // const hasmassage = false;
-  const messagge = "Come posso aiutarti?";
+import ComicCard from "./ComicCard";
+
+export default function Main({ comics }) {
+  const hasmassage = false;
 
   return (
     <main>
       <div className="container-main">
-        <Alert type="" text="" colorText="blue"></Alert>
+        {hasmassage && (
+          <Alert type="info">{/* <h1>Messaggio di Errore</h1> */}</Alert>
+        )}
 
-        <section className="section-insert">
-          <h1>--&gt; Content goes here &lt;--</h1>
+        <section className="section-insert-img"></section>
+
+        <section className="section-insert-dc-list">
+          <div className="container">
+            <div className="current-series">
+              <div id="title-current-series">
+                <h3> CURRENT SERIES</h3>
+              </div>
+              <div className="row">
+                {/* 1 card */}
+                {comics.map((comic, index) => (
+                  <ComicCard comic={comic} key={index} />
+                ))}
+
+                {/* fine card comic */}
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="section-merchandising">
